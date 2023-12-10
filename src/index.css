@@ -1,0 +1,118 @@
+html, body {
+  background-color: rgb(218, 216, 216);
+  min-width: 920px;
+}
+
+header {
+  display: grid;
+  grid-template-columns: auto 200px;
+  grid-template-rows: 1fr;
+
+  height: 60px;
+  background-color: white;
+  border-bottom: 1px solid gray;
+  border-radius: 10px;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+header h1 {
+  margin-top: 10px;
+  padding-left: 5px;
+}
+
+header .Creator {
+  margin-top: 5px;
+  margin-right: 5px;
+  border-radius: 15px;
+  height: 50px;
+  background-color: rgb(248, 220, 59);
+  text-align: center;
+  vertical-align: middle;
+}
+header .Creator h2 {
+  margin-top: 11px;
+}
+
+.main {
+  border-radius: 10px;
+  margin-top: 10px;
+  border-top: 1px solid gray;
+}
+.films {
+  width: 35%;
+  border-right: 1px solid rgb(221, 221, 221);
+}
+
+.films .searchBar {
+  display: grid;
+  grid-template-columns: auto 0.5fr;
+  grid-template-rows: 1fr;
+}
+
+.films .search {
+  margin: 15px;
+  height: 30px;
+  border-radius: 5px;
+  border: none;
+  background-color: rgb(216, 240, 250);
+  color: blue;
+  box-shadow: 0px 2px 2px 1px rgba(0, 0, 0, 0.5);
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.films .search:hover {
+  background-color:  rgb(122, 158, 173);
+}
+
+.searcherInput {
+  margin: 15px;
+  height: 30px;
+  border: none;
+  border-radius: 5px;
+  background-color: rgb(216, 240, 250);
+}
+
+.films .filmsList {
+  display: grid;
+  grid-template-columns: 1fr;
+  margin-left: 15px;
+}
+
+.films .filmsList .film {
+  border: 1px solid gray;
+  border-radius: 5px;
+  width: 96.5%;
+  box-shadow: 0px 2px 2px 1px rgba(0, 0, 0, 0.5);
+}
+
+.windowForFilms {
+  border-radius: 10px;
+  background-color: white;
+  margin-top: 20px;
+}
+
+.films .footerFilms {
+  display: grid;
+  border-top: 1px solid rgb(221, 221, 221);
+  grid-template-columns: auto 100px;
+  grid-template-rows: auto;
+  align-items: center;
+  margin-left: 15px;
+  margin-top: 50px;
+  height: 80px;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.films .footerFilms button{
+  width: 90%;
+  height: 40%;
+  border: none;
+  border-radius: 5px;
+  background-color: rgb(248, 220, 59);
+  box-shadow: 0px 2px 2px 1px rgba(0, 0, 0, 0.5);
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.films .footerFilms button:hover{
+  background-color: rgb(205, 182, 50);
+}
+
