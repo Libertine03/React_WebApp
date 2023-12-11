@@ -1,15 +1,19 @@
 import './App.css';
 import Header from './components/Header';
-import FilmsView from './components/FilmsView';
+import FilmsList from './components/FilmsList';
 import React from 'react';
 
-function App() {
-  return (
-    <div>
+class App extends React.Component {
+
+  render() {
+    return(
+      <div>
         <Header />
-        <FilmsView />
-    </div>
-  );
+        <FilmsList />
+      </div>
+    )
+  }
 }
 
 export default App;
+
