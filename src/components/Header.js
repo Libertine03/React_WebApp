@@ -4,9 +4,9 @@ class Header extends React.Component {
   render() {
     return(
       <header>
-        <h1>Админка фильмотеки</h1>
+        <h1>Film Editor</h1>
         <div className="Creator">
-            <h2>Черепанов Павел</h2>
+            <h2>Cherepanov Pavel</h2>
         </div>
       </header>
     )

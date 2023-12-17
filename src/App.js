@@ -1,6 +1,6 @@
 import './App.css';
 import Header from './components/Header';
-import FilmsList from './components/FilmsList';
+import Movies from './components/Movies';
 import React from 'react';
 
 class App extends React.Component {
@@ -9,7 +9,7 @@ class App extends React.Component {
     return(
       <div>
         <Header />
-        <FilmsList />
+        <Movies />
       </div>
     )
   }
